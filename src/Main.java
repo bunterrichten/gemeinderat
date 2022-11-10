@@ -26,6 +26,7 @@ public class Main {
 
     public static void main(final String[] args) throws IOException,TikaException {
 
+        // Parteien
         ArrayList<Partei> parteien = new ArrayList<Partei>();
         parteien.add(new Partei("FPÖ", "blau"));
         parteien.add(new Partei("SPÖ", "rot"));
